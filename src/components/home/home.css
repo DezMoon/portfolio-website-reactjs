@@ -116,7 +116,35 @@
 
 /*Breakpoints*/
 @media screen and (max-width: 992px) {
-    
+    .home_content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .home_hand {
+        width: 26px;
+        height: 26px;
+    }
+
+    .home_subtitle {
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home_subtitle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home_description {
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home_img {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 768px) {
