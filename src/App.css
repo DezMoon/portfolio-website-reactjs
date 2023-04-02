@@ -118,19 +118,19 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section__title {
+.section_title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section__subtitle {
+.section_subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
-.section__title,
-.section__subtitle {
+.section_title,
+.section_subtitle {
   text-align: center;
 }
 
@@ -160,7 +160,7 @@ img {
   background-color: var(--title-color-dark);
 }
 
-.button__icon {
+.button_icon {
   margin-left: var(--mb-0-5);
 }
 
@@ -181,7 +181,7 @@ img {
     padding: 1rem 1.75rem;
   }
 
-  .button__icon {
+  .button_icon {
     width: 22px;
     height: 22px;
   }
@@ -197,7 +197,7 @@ img {
     padding: 2rem 0 4rem;
   }
 
-  .section__subtitle {
+  .section_subtitle {
     margin-bottom: var(--mb-3);
   }
 }
