@@ -13,7 +13,7 @@ const Services = () => {
         <section className="services section" id="services">
             <h2 className="section_title">Services</h2>
 
-            <span className="section_subtitle">What I offer</span>
+            <span className="section_subtitle">What I Offer</span>
 
             <div className="services_container container grid">
                 <div className="services_content">
