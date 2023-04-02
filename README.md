@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Personal Portfolio React App
 
 This is my portofolio website built with React JS
 
