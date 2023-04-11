@@ -18,11 +18,11 @@
     margin-bottom: var(--mb-1-5);
 }
 
-.skills_box {
+/*.skills_box {
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
-}
+}*/
 
 .skills_group {
     display: grid;
