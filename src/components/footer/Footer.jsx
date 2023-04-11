@@ -20,7 +20,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#qualifications" className="footer_link">Portfolio</a>
+                        <a href="#portfolio" className="footer_link">Portfolio</a>
                     </li>
                 </ul>
 
@@ -30,15 +30,15 @@ const Footer = () => {
                     </a>
 
                     <a href="https://www.linkedin.com/desmond-chiku-moonga" className="footer_social-link" target="_blank" rel="noreferrer">
-                    <i class="bx bxl-linkedin"></i>
+                    <i className="bx bxl-linkedin"></i>
                     </a>
 
                     <a href="https://github.com/DezMoon" className="footer_social-link" target="_blank" rel="noreferrer">
-                    <i class="bx bxl-github"></i>
+                    <i className="bx bxl-github"></i>
                     </a>
 
                     <a href="https://twitter.com/MoongaDez" className="footer_social-link" target="_blank" rel="noreferrer">
-                    <i class="bx bxl-twitter"></i>
+                    <i className="bx bxl-twitter"></i>
                     </a>
                 </div>
 
