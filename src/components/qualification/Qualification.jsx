@@ -38,10 +38,10 @@ const Qualification = () => {
                         : "qualification_content"}>
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Web Designer</h3>
-                                <span className="qualification_subtitle">Kalulushi, Zambia</span>
+                                <h3 className="qualification_title">Full-Stack Web Development</h3>
+                                <span className="qualification_subtitle">Microverse - Virtual</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2023 - Present
                                 </div>
                             </div>
 
@@ -61,10 +61,10 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification_title">C++</h3>
-                                <span className="qualification_subtitle">Kalulushi, Zambia</span>
+                                <h3 className="qualification_title">JavaScript Algorithms and Data Structures</h3>
+                                <span className="qualification_subtitle">FreeCodeCamp - Virtual</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                                    <i className="uil uil-calendar-alt"></i> 2021 - 2022
                                 </div>
                             </div>
 
@@ -73,10 +73,10 @@ const Qualification = () => {
 
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Web Developer</h3>
-                                <span className="qualification_subtitle">Kalulushi, Zambia</span>
+                                <h3 className="qualification_title">Bachelor's of Information Technology</h3>
+                                <span className="qualification_subtitle">Zambia Catholic University - Kalulushi, Zambia</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2015 - 2018
                                 </div>
                             </div>
 
@@ -86,24 +86,6 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        <div className="qualification_data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification_rounder"></span>
-                                <span className="qualification_line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification_title">ASP.Net</h3>
-                                <span className="qualification_subtitle">Kalulushi, Zambia</span>
-                                <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
-                                </div>
-                            </div>
-
-                           
-                        </div>
                     </div>
 
                     <div className={
@@ -113,10 +95,10 @@ const Qualification = () => {
                         
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Production Designer</h3>
-                                <span className="qualification_subtitle">ICU - Lusaka, Zambia</span>
+                                <h3 className="qualification_title">Full-Stack web developer</h3>
+                                <span className="qualification_subtitle">Freelance - Lusaka, Zambia</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2018 - Present
                                 </div>
                             </div>
 
@@ -135,10 +117,10 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification_title">UX Designer</h3>
-                                <span className="qualification_subtitle">Apple - Kalulushi, Zambia</span>
+                                <h3 className="qualification_title">IT Consultant & Specialist</h3>
+                                <span className="qualification_subtitle">Ahava Consulting Limited - Lusaka, Zambia</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                                    <i className="uil uil-calendar-alt"></i> 2020 - Present
                                 </div>
                             </div>
 
@@ -147,10 +129,10 @@ const Qualification = () => {
 
                         <div className="qualification_data">
                             <div>
-                                <h3 className="qualification_title">Web Designer</h3>
-                                <span className="qualification_subtitle">Figma - Ndola, Zambia</span>
+                                <h3 className="qualification_title">Front-end Web developer - React JS</h3>
+                                <span className="qualification_subtitle">Muda corp - Remote</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i className="uil uil-calendar-alt"></i> August, 2020 - December, 2020
                                 </div>
                             </div>
 
@@ -169,10 +151,10 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification_title">ASP.Net</h3>
-                                <span className="qualification_subtitle">Kalulushi, Zambia</span>
+                                <h3 className="qualification_title">full-Stack Web developer</h3>
+                                <span className="qualification_subtitle">VizionIT Zambia - Ndola, Zambia</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                                    <i className="uil uil-calendar-alt"></i> 2018 - 2020
                                 </div>
                             </div>
 
