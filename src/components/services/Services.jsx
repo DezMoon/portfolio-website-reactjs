@@ -91,7 +91,7 @@ const Services = () => {
                 <div className={toggleState === 2 ? "services_modal active-modal" : "services_modal"}>
                     <div className="services_modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services_modal-close"></i>
-                        <h3 className="services_modal-title">Ui/Ux</h3>
+                        <h3 className="services_modal-title">Application Development</h3>
                         <p className="services_modal-description">
                             Service with more than 2 years of experience.Providing quality work to clients and companies.
                         </p>
@@ -138,7 +138,7 @@ const Services = () => {
                 <div className={toggleState === 3 ? "services_modal active-modal" : "services_modal"}>
                     <div className="services_modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services_modal-close"></i>
-                        <h3 className="services_modal-title">Visual Designer</h3>
+                        <h3 className="services_modal-title">IT Consultancy & Support</h3>
                         <p className="services_modal-description">
                             Service with more than 7 years of experience.Providing quality support and Consultancy to clients and companies.
                         </p>
