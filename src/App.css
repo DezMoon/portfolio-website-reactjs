@@ -9,11 +9,19 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+
+  --text-color-light: hsl(var(--hue), var(--sat), 20%);
+  --text-color-dark: hsl(var(--hue), var(--sat), 80%);
+
+  --title-color-light: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color-dark-mode: hsl(var(--hue), var(--sat), 100%);
+
+  --body-color-light: hsl(var(--hue), var(--sat), 98%);
+  --body-color-dark: hsl(var(--hue), var(--sat), 20%);
+
+  --container-color-light: #fff;
+  --container-color-dark: #000;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -48,6 +56,22 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+}
+
+.light-theme {
+  --title-color: var(--title-color-light);
+  --title-color-dark: var(--title-color-dark);
+  --text-color: var(--text-color-light);
+  --body-color: var(--body-color-light);
+  --container-color: var(--container-color-light);
+}
+
+.dark-theme {
+  --title-color: var(--title-color-dark);
+  --title-color-dark: var(--title-color-dark-mode);
+  --text-color: var(--text-color-dark);
+  --body-color: var(--body-color-dark);
+  --container-color: var(--container-color-dark);
 }
 
 /* Responsive typography */
@@ -127,6 +151,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
+  color: var(--text-color);
 }
 
 .section_title,
