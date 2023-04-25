@@ -18,7 +18,7 @@
   --title-color-dark-mode: hsl(var(--hue), var(--sat), 100%);
 
   --body-color-light: hsl(var(--hue), var(--sat), 98%);
-  --body-color-dark: hsl(var(--hue), var(--sat), 20%);
+  --body-color-dark: hsl(var(--hue), var(--sat), 10%);
 
   --container-color-light: #fff;
   --container-color-dark: #000;
@@ -58,6 +58,20 @@
   --z-modal: 1000;
 }
 
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+/*=============== BASE ===============*/
 .light-theme {
   --title-color: var(--title-color-light);
   --title-color-dark: var(--title-color-dark);
@@ -74,20 +88,6 @@
   --container-color: var(--container-color-dark);
 }
 
-/* Responsive typography */
-@media screen and (max-width: 992px) {
-  :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-  }
-}
-
-/*=============== BASE ===============*/
 * {
   margin: 0;
   padding: 0;
@@ -107,7 +107,7 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background: var(--body-color);
   color: var(--text-color);
 }
 
